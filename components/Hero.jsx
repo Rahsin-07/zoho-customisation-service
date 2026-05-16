@@ -54,7 +54,7 @@ export default function Hero() {
       <div aria-hidden style={{ position: 'absolute', width: 420, height: 420, top: '30%', right: '20%', background: 'radial-gradient(circle at center, rgba(220,38,38,0.12), transparent 60%)', animation: 'blob-drift 22s ease-in-out infinite', pointerEvents: 'none' }} />
       <div aria-hidden style={{ position: 'absolute', inset: 0, opacity: 0.45 }} className="dot-grid" />
 
-      {/* Floating chips (desktop only) */}
+{/*  
       <div aria-hidden style={{ position: 'absolute', inset: 0, pointerEvents: 'none', overflow: 'hidden' }}>
         {moduleChips.map((c, i) => (
           <div key={c.label} className="d-none d-xl-inline-flex"
@@ -72,7 +72,7 @@ export default function Hero() {
             {c.label}
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="container position-relative" style={{ zIndex: 2 }}>
         {/* HEADLINE block */}
